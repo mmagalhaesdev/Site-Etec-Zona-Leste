@@ -29,8 +29,28 @@
 <img src="Eventos.png" alt="Descrição"/>
 <br>
 <h2>Demonstração:</h2>
-<video width="100%" controls autoplay loop muted>
-    <source src="https://github.com/user-attachments/assets/478dea8f-c8ab-427b-ab75-9a9934393f7c" type="video/mp4">
-</video>
+<img src="demo.gif">
+<br>
+<h2>Instalação:</h2>
+<ul>
+  <li>Instalar o Laravel (consultar documentação), preferencialmente a versão 13 (mais recente) usada neste projeto.</li>
+
+  <li>Instalar o Node.js (NPM já vem junto com o Node.js).</li>
+
+  <li>Com o Laravel instalado, executar o comando:
+    <br>
+    <code>php artisan serve</code>
+  </li>
+
+  <li>Com o NPM instalado, executar o comando:
+    <br>
+    <code>npm run dev</code>
+    <br>
+    (necessário para o Tailwind CSS funcionar)
+  </li>
+  <li>Baixar e inicializar o Xampp</li>
+
+  <li>Acessar o link gerado pelo comando <code>php artisan serve</code> no navegador para usar o site.</li>
+</ul>
 
 
