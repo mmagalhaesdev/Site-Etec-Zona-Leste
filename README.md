@@ -23,6 +23,11 @@
 <img src="Vestibulinho.png" alt="Descrição"/>
 <br>
 <p>Apresenta os principais departamentos da Etec:</p>
-<img src="Departamentos" alt="Descrição"/>
+<img src="Departamentos.png" alt="Descrição"/>
+<br>
+<p>Deixa o usuário informado sobre os principais eventos:</p>
+<img src="Eventos.png" alt="Descrição"/>
+<br>
+<h2>Demonstração:</h2>
 
 
