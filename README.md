@@ -12,8 +12,17 @@
 
 <h2>Funcionalidades:</h2>
 
-<p>Ao acessar o site em Home, nos deparamos com elementos que exibem a instituição de ensino, bem outras funcionalidades pertinentes ao cenário da Etec Zona Leste.</p>
+<p>Ao acessar o site em Home, nos deparamos com elementos que exibem a instituição de ensino, bem outras funcionalidades pertinentes ao cenário da Etec Zona Leste:</p>
 <br>
-<img src="URL_da_imagem" alt="Descrição" width="300"/>
+<img src="Home.png" alt="Descrição"/>
+<br>
+<p>O site também conta com uma janela que apresenta os principais cursos oferecidos:</p>
+<img src="Cursos.png" alt="Descrição"/>
+<br>
+<p>Contém uma página explicativa sobre o vestibulinho e que direciona para o site oficial do Vestibulinho Etec:</p>
+<img src="Vestibulinho.png" alt="Descrição"/>
+<br>
+<p>Apresenta os principais departamentos da Etec:</p>
+<img src="Departamentos" alt="Descrição"/>
 
 
