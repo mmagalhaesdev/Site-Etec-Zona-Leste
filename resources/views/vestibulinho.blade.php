@@ -8,82 +8,68 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
     <body>
-        <!--Header-->
-        <div class="inline-block w-full  my-4">
-            <div class="flex">
+        <div class="w-full my-4">
+            <div class="flex flex-col md:flex-row items-center">
 
-                <!--Etec Logo -->
-                <div class="w-32 h-32 ml-4">
-                    <img src="../Images/logo.jpg" >
+                <div class="w-24 h-24 md:w-32 md:h-32 ml-4">
+                    <img src="../Images/logo.jpg" class="w-full h-full object-contain">
                 </div>
 
-                <!--CPS Logo -->
-                <div class="w-32 h-32">
-                    <img src="../Images/cps.png" >
+                <div class="w-24 h-24 md:w-32 md:h-32">
+                    <img src="../Images/cps.png" class="w-full h-full object-contain">
                 </div>
 
-                <!--Mídias Sociais-->
-                <div class="ml-auto mr-10 mt-10 flex items-center gap-4">
+                <div class="md:ml-auto mr-4 md:mr-10 mt-4 md:mt-10 flex items-center gap-4">
                     <a href="https://www.instagram.com/eteczonalesteoficial/" class="cursor-pointer">
-                        <i class="fa fa-instagram" style="font-size:36px; color:#d7d00e;"></i>
+                        <i class="fa fa-instagram text-2xl md:text-3xl" style="color:#d7d00e;"></i>
                     </a>
                     <a href="https://www.youtube.com/@etecdazonaleste2949" class="cursor-pointer">
-                        <i class="fa fa-youtube-play" style="font-size:36px; color:#b80a0b;"></i>
+                        <i class="fa fa-youtube-play text-2xl md:text-3xl" style="color:#b80a0b;"></i>
                     </a>
                     <a href="https://www.facebook.com/Eteczonalesteoficial/" class="cursor-pointer">
-                        <i class="fa fa-facebook-f" style="font-size:36px; color:#0c4257;"></i>
+                        <i class="fa fa-facebook-f text-2xl md:text-3xl" style="color:#0c4257;"></i>
                     </a>
                 </div>
 
             </div>
         </div>
 
-        <!--Menu-->
-        <div class="bg-red-700 h-12 flex items-center justify-center">
-            
-            <ul>
-                <a href="/" class="inline-block mx-4 text-white font-bold">Home</a>
-                <a href="/curso"class="inline-block mx-4 text-white font-bold">Cursos</a>
-                <a href="/vestibulinho" class="inline-block mx-4 text-white font-bold">Vestibulinho</a>
-                <a href="/departamento" class="inline-block mx-4 text-white font-bold">Departamentos</a>
-                <a href="/evento" class="inline-block mx-4 text-white font-bold">Eventos</a>
+        <div class="bg-red-700 flex flex-col md:flex-row items-center justify-center py-2 md:h-12">
+            <ul class="flex flex-col md:flex-row text-center w-full justify-center">
+                <a href="/" class="mx-2 md:mx-4 my-1 md:my-0 text-white font-bold">Home</a>
+                <a href="/curso"class="mx-2 md:mx-4 my-1 md:my-0 text-white font-bold">Cursos</a>
+                <a href="/vestibulinho" class="mx-2 md:mx-4 my-1 md:my-0 text-white font-bold">Vestibulinho</a>
+                <a href="/departamento" class="mx-2 md:mx-4 my-1 md:my-0 text-white font-bold">Departamentos</a>
+                <a href="/evento" class="mx-2 md:mx-4 my-1 md:my-0 text-white font-bold">Eventos</a>
             </ul>
-            
         </div>
 
-        <!--Titulo-->
-        <div class="px-8 mt-6">
-            <h1 class="text-3xl font-bold text-gray-800">Como entrar na Etec?</h1>
+        <div class="px-4 md:px-8 mt-6">
+            <h1 class="text-2xl md:text-3xl font-bold text-gray-800 text-center md:text-left">Como entrar na Etec?</h1>
         </div>
 
-        <!--Container-->
-        <div class="flex ml-8 mr-8 gap-8 mt-8">
-            <!--Banner-->
-            <div class="w-450 h-1">
-                <img src="../Images/etec.png">
+        <div class="flex flex-col md:flex-row mx-4 md:mx-8 gap-6 md:gap-8 mt-8 items-center md:items-start">
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="../Images/etec.png" class="w-full md:w-3/4 h-auto object-cover">
             </div>
 
-            <!--Conteudo-->
-            <div class="inline-block">
-                <div class="text-justify  text-gray-700 text-lg">
+            <div class="w-full">
+                <div class="text-justify text-gray-700 text-base md:text-lg">
                     <p>O processo de vestibulinho na ETEC, segue um padrão definido pelo Centro Paula Souza. Primeiramente, é divulgado um edital contendo todas as informações essenciais, como datas, locais de prova, cursos oferecidos, requisitos de inscrição e documentação necessária.</p>
                 </div>
 
-                <div class="text-justify  text-gray-700 text-lg mt-10">
+                <div class="text-justify text-gray-700 text-base md:text-lg mt-6 md:mt-10">
                     <p>Os candidatos devem então se inscrever dentro do prazo estipulado, geralmente de forma online através do site oficial do vestibulinho da ETEC, e pagar uma taxa de inscrição conforme especificado no edital.</p>
                 </div>
 
-                <br>
-
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 cursor-pointer" onclick="window.location.href='https://vestibulinho.etec.sp.gov.br/home/'">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6 cursor-pointer w-full md:w-auto" onclick="window.location.href='https://vestibulinho.etec.sp.gov.br/home/'">
                     Mais Informações
                 </button>
             </div>
         </div>
 
-        <!--Footer-->
-        <div class="bg-red-700 mt-50 px-8 py-10">
-            <p class="text-white text-center">@2026 Etec Zona Leste. Todos os direitos reservados.</p>
+        <div class="bg-red-700 mt-16 md:mt-40 px-4 md:px-8 py-6 md:py-10">
+            <p class="text-white text-center text-sm md:text-base">@2026 Etec Zona Leste. Todos os direitos reservados.</p>
         </div>
     </body>
 </html>
