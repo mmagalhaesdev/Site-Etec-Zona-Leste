@@ -1,4 +1,4 @@
-<h1>Protótipo Site Etec da Zona Leste</h1>
+<h1>Site Etec da Zona Leste</h1>
 
 <h2>Motivo:</h2>
 <p>Compreender as principais funcionalidades do framework Laravel, ministrada na matéria de PWIII.</p>
